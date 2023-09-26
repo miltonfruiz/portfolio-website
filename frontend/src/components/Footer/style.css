@@ -1,0 +1,21 @@
+.contact,
+.apMern {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  text-shadow: 0px 0px 7px black;
+}
+.allRights {
+  height: 50px;
+  color: whitesmoke;
+}
+.insta,
+.face,
+.wsp {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+.textMern,
+.textAll {
+  text-shadow: 0px 0px 7px black;
+}

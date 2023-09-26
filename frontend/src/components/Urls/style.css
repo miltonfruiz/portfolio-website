@@ -1,0 +1,81 @@
+.textcontainer {
+  margin-top: 109%;
+  width: 100%;
+  height: 16%;
+  background-color: rgba(51, 40, 40, 0.678);
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+.imgp {
+  font-size: 11px;
+  margin-bottom: -5px;
+}
+
+.imgsub {
+  margin-top: 3px;
+  margin-bottom: 4px;
+  font-size: 9px;
+}
+
+.img1 {
+  background: url(/public/images/paris.jpg);
+}
+.img2 {
+  background: url(/public/images/yakarta.jpg);
+}
+.img3 {
+  background: url(/public/images/venecia.jpg);
+}
+.img4 {
+  background: url(/public/images/kyoto.jpg);
+}
+.img5 {
+  background: url(/public/images/barcelona.jpg);
+}
+.img6 {
+  background: url(/public/images/dodoma.jpg);
+}
+.img7 {
+  background: url(/public/images/beirut.jpg);
+}
+.img8 {
+  background: url(/public/images/cabo.jpg);
+}
+.img9 {
+  background: url(/public/images/bsas.jpg);
+}
+.img10 {
+  background: url(/public/images/newyork.jpg);
+}
+.img11 {
+  background: url(/public/images/rio.jpg);
+}
+.img12 {
+  background: url(/public/images/canberra.jpg);
+}
+.imgConfig {
+  display: inline-block;
+  width: 170px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(76, 107, 107, 0.856);
+  box-shadow: rgba(64, 114, 112, 0.856) 0px 5px 15px;
+}
+.imgConfig:hover {
+  transition: 0.5s;
+  transform: scale(1.01);
+  box-shadow: rgba(199, 199, 209, 0.945) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border: solid whitesmoke(212, 137, 40) 2px;
+}
+.textcontainer:hover {
+  transition: 0.5s;
+  transform: scale(1.01);
+  box-shadow: rgb(255, 255, 255) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  color: black;
+}

@@ -1,0 +1,11 @@
+#my-tinerary {
+  font-size: 20px;
+}
+#home,
+#cities {
+  font-size: 15px;
+}
+#login {
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

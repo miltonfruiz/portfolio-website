@@ -11,29 +11,26 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="row justify-content-center d-flex align-items-center navContainer mt-4">
+      <div className="row justify-content-center d-flex align-items-center navContainer mt-4 col-12">
         {LINK.map((each, key) => (
           <Anchor
             key={key}
-            href={each.href}
-            styles={each.styles}
-            tittle={each.tittle}
-            position={each.position}
-            name={each.name}
+            classCfg={each.classCfg}
+            hrefLink={each.hrefLink}
+            targetPage={each.targetPage}
+            imgDirec={each.imgDirec}
+            altLogo={each.altLogo}
             onClick={() => handlerLogOut()}
           />
         ))}
         {!token ? (
-          <a
-            href="/login"
-            className="btn btn-info px-4 col-1 logClass text-white"
-          >
+          <a href="/login" className="btn btn-info px-4 logClass text-white">
             {" "}
             Login
           </a>
         ) : (
           <button
-            className="btn btn-danger px-4 col-1  logClass"
+            className="btn btn-danger px-4 logClass"
             onClick={() => dispatch(userActions.log_out())}
           >
             {" "}

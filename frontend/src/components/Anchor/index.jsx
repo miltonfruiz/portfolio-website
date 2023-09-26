@@ -1,15 +1,19 @@
 import React from "react";
 import "./style.css";
-import { Link as Anchors } from "react-router-dom";
 
-export default function Anchor({ href, styles, tittle, position, name }) {
+export default function Anchor({
+  classCfg,
+  hrefLink,
+  targetPage,
+  imgDirec,
+  altLogo,
+}) {
   return (
     <>
-      <div className={position}>
-        {" "}
-        <Anchors to={href} id={name} className={styles}>
-          {tittle}
-        </Anchors>
+      <div className={classCfg}>
+        <a href={hrefLink} target={targetPage}>
+          <img src={imgDirec} alt={altLogo} />
+        </a>
       </div>
     </>
   );

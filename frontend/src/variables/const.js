@@ -71,25 +71,33 @@ const IMAGES = [
 
 const LINK = [
   {
-    href: "/",
-    styles: "me-4 text-white",
-    tittle: "My Tinerary",
-    position: "col-5 text-start my-tinerary",
-    name: "my-tinerary",
+    classCfg: "aplogo col-6",
+    hrefLink:
+      "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
+    targetPage: "_blank",
+    imgDirec: "public/images/aplogo.png",
+    altLogo: "aplogo",
   },
   {
-    href: "/",
-    styles: "me-4 text-white",
-    tittle: "Home",
-    position: "col-1 text-end home",
-    name: "home",
+    classCfg: "gitlogo col-1",
+    hrefLink: "https://github.com/miltonfruiz",
+    targetPage: "_blank",
+    imgDirec: "public/images/git.png",
+    altLogo: "gitlogo",
   },
   {
-    href: "/cities",
-    styles: "me-4 text-white",
-    tittle: "Cities",
-    position: "col-1",
-    name: "cities",
+    classCfg: "instalogo col-1",
+    hrefLink: "https://www.instagram.com/djtaicke/",
+    targetPage: "_blank",
+    imgDirec: "public/images/insta.png",
+    altLogo: "instalogo",
+  },
+  {
+    classCfg: "linkedinlogo col-1",
+    hrefLink: "https://www.linkedin.com/in/miltonfruiz/",
+    targetPage: "_blank",
+    imgDirec: "public/images/linkedin.png",
+    altLogo: "linkedinlogo",
   },
 ];
 

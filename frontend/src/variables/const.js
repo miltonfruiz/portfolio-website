@@ -71,7 +71,7 @@ const IMAGES = [
 
 const LINK = [
   {
-    classCfg: "aplogo col-6",
+    classCfg: "aplogo col-5 text-start",
     hrefLink:
       "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
     targetPage: "_blank",

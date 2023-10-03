@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
 import Carousel from "../Carousel";
-import Welcome from "../Welcome";
 import Call from "../Call";
 import Footer from "../Footer";
+import Banner from "../Banner";
 
 function Main() {
   return (
     <main>
-      <Welcome />
+      <Banner />
       <Call />
       <Carousel />
       <Footer />

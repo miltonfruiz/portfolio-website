@@ -11,6 +11,7 @@ export default function Banner() {
             src="public/images/perfil.jpg"
             alt="profile-img"
           />
+          <h6 className="textPortfolio">Portfolio Web</h6>
         </div>
       </div>
     </>

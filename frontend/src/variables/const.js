@@ -71,12 +71,14 @@ const IMAGES = [
 
 const LINK = [
   {
-    classCfg: "aplogo col-5 text-start",
+    classCfg: "aplogo col-5 text-start ",
     hrefLink:
       "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
     targetPage: "_blank",
     imgDirec: "public/images/aplogo.png",
     altLogo: "aplogo",
+    width: "150",
+    height: "150",
   },
   {
     classCfg: "gitlogo col-1",
@@ -84,6 +86,8 @@ const LINK = [
     targetPage: "_blank",
     imgDirec: "public/images/git.png",
     altLogo: "gitlogo",
+    width: "30",
+    height: "30",
   },
   {
     classCfg: "instalogo col-1",
@@ -91,6 +95,8 @@ const LINK = [
     targetPage: "_blank",
     imgDirec: "public/images/insta.png",
     altLogo: "instalogo",
+    width: "30",
+    height: "30",
   },
   {
     classCfg: "linkedinlogo col-1",
@@ -98,6 +104,8 @@ const LINK = [
     targetPage: "_blank",
     imgDirec: "public/images/linkedin.png",
     altLogo: "linkedinlogo",
+    width: "30",
+    height: "30",
   },
 ];
 

@@ -7,12 +7,14 @@ export default function Anchor({
   targetPage,
   imgDirec,
   altLogo,
+  width,
+  height,
 }) {
   return (
     <>
       <div className={classCfg}>
         <a href={hrefLink} target={targetPage}>
-          <img src={imgDirec} alt={altLogo} />
+          <img src={imgDirec} alt={altLogo} width={width} height={height} />
         </a>
       </div>
     </>

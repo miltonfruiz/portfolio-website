@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="row justify-content-center d-flex align-items-center navContainer mt-5">
+      <div className="row justify-content-center d-flex align-items-center navContainer mt-4">
         {LINK.map((each, key) => (
           <Anchor
             key={key}
@@ -20,6 +20,7 @@ export default function Nav() {
             targetPage={each.targetPage}
             imgDirec={each.imgDirec}
             altLogo={each.altLogo}
+            width={each.width}
             onClick={() => handlerLogOut()}
           />
         ))}

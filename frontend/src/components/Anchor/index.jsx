@@ -14,7 +14,13 @@ export default function Anchor({
     <>
       <div className={classCfg}>
         <a href={hrefLink} target={targetPage}>
-          <img src={imgDirec} alt={altLogo} width={width} height={height} />
+          <img
+            className="imgNav"
+            src={imgDirec}
+            alt={altLogo}
+            width={width}
+            height={height}
+          />
         </a>
       </div>
     </>

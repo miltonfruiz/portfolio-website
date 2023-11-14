@@ -1,0 +1,7 @@
+.imgNav:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  color: whitesmoke;
+  border: transparent;
+  filter: drop-shadow(1px 1px 1px rgb(0, 247, 255));
+}

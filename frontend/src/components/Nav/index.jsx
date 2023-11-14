@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Anchor from "../Anchor";
 import { LINK } from "../../variables/const";
 import "./style.css";

@@ -13,6 +13,9 @@
   margin-left: 30px;
   margin-bottom: -30px;
   border: solid 3px white;
+  box-shadow: rgba(86, 169, 202, 0.863) 5px 5px,
+    rgba(86, 169, 202, 0.3) 10px 10px, rgba(86, 169, 202, 0.2) 15px 15px,
+    rgba(86, 169, 202, 0.1) 20px 20px, rgba(191, 205, 211, 0.05) 25px 25px;
 }
 .textPortfolio {
   color: white;
